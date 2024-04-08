@@ -8,7 +8,6 @@ public class EmailAndPhoneRegex {
         System.out.println("Enter your email: ");
         String email = sc.next();
         String regex = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
-        System.out.println("Enter your phone: ");
 
         boolean result = email.matches(regex);
         if(result){
